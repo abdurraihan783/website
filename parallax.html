@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Bootstrap Icon">
+	<meta name="description" content="Random practice with bootstrap  ">
+	<meta name="keywords" content="meta tag, icon, animation ">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="3 days">
+	<meta name="author" content="Abdur Raihan">
+	<title>JS & JQ</title>
+	<link rel="icon" href="images/favicon.png">
+
+	<!-- css link -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- header start -->
+	<header>
+		<div class="container">
+			<!-- navbar start -->
+		<nav class="navbar navbar-expand-lg m_nav">
+	  	<div class="container-fluid px-0">
+	    <a class="navbar-brand" href="index.html">
+	    	<h4 class="logo">JS&JQ</h4>
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar_c" aria-controls="navbar_c" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+	    <div class="collapse navbar-collapse menu" id="navbar_c">
+	      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+	      	<li class="nav-item">
+	          <a class="nav-link" href="index.html">Mixitup</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="animation.html">Animation</a>
+	        </li>
+	       	<li class="nav-item">
+	          <a class="nav-link" href="aos.html">Aos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="counterup.html">Counterup</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="light.html">Light</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="parallax.html">Parallax</a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+		</nav>
+				<!-- navbar end -->
+
+		</div>
+	</header>		
+	<!-- header end -->
+
+	<!-- preloader -->
+	<div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_three"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+	<section class="parallax">
+				<div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="images/banner1.jpg" data-natural-width="1400" data-natural-height="900" style="height: 200px;">
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-12 text-center">
+						<div class="c_p">
+							<h2>Lorem, ipsum dolor.</h2>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum cum! Ullam aperiam, quod natus repellendus iusto. Ratione, reprehenderit, libero</p>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="images/banner2.jpg" data-natural-width="1400" data-natural-height="900" style="height: 200px;">
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-12 text-center">
+						<div class="c_p">
+							<h2>Lorem, ipsum dolor.</h2>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum cum! Ullam aperiam, quod natus repellendus iusto. Ratione, reprehenderit, libero</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="parallax-window" data-parallax="scroll" data-position="top" data-bleed="10" data-image-src="images/banner3.jpg" data-natural-width="1400" data-natural-height="900" style="height: 200px;">
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-lg-12 text-center">
+						<div class="c_p">
+							<h2>Lorem, ipsum dolor.</h2>
+							<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, eum cum! Ullam aperiam, quod natus repellendus iusto. Ratione, reprehenderit, libero</p>
+						</div>
+					</div>
+				</div>
+	</section>
+
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+	// preloader
+	$(document).ready(function(){
+  	$(window).load(function () {
+    $("#loading").fadeOut(400);
+  	});
+	})
+	</script>
+</body>
+</html>
+
+
+
+
+
+
